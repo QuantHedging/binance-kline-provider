@@ -10,7 +10,7 @@
     | limit      	|       否      	| 1000             	    | 向前获取数量(不得超过1000)  	|
 
 * example: 
-    - 请求 `GET /api/kline/BTCUSDT/1m/previous?endTime=1503360000000&&limit=5`
+    - 请求 `GET /api/kline/BTCUSDT/1m/previous?endTime=1503360000000&limit=5`
     - 返回
     ```json
     [{
@@ -56,7 +56,7 @@
     | limit      	|       否      	| 1000             	    | 向后获取数量(不得超过1000)  	|
 
 * example: 
-    - 请求 `GET /api/kline/BTCUSDT/1m/next?fromTime=1503360000000&&limit=5`
+    - 请求 `GET /api/kline/BTCUSDT/1m/next?fromTime=1503360000000&limit=5`
     - 返回
     ```json
     [{
